@@ -20,4 +20,4 @@ The ERD of the project was developed based on the functional requirements and is
 * MySQL
 * Hibernate
 
-## Project Status: In-Progress 🚧
+
