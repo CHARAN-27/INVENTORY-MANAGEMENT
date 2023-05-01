@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+<div th:replace="header :: myHeader"></div>
+</head>
+<body class="sb-nav-fixed">
+	<div th:replace="navbar :: myNavbar"></div>
+	<div id="layoutSidenav">
+		<div th:replace="sidebar :: mySidebar"></div>
+		<!-- Sidebar ends here -->
+		<div id="layoutSidenav_content">
+			<main>
+				<div class="container-fluid">
+					<h1 class="mt-4">Inventory Management System <img src="https://t3.ftcdn.net/jpg/05/42/85/06/360_F_542850615_1B16r8qsUa5oR8zq4td8wqi911uczewS.jpg" width="50px" height="50px" ></h1>
+
+
+					<ol class="breadcrumb mb-4">
+						<li class="breadcrumb-item active">Homepage</li>
+					</ol>
+					<div class="photos">
+						<img src="https://img.freepik.com/free-vector/restaurant-mural-wallpaper_23-2148703851.jpg?w=2000" width="500px" height="500px">
+						<img src="https://img.freepik.com/free-vector/fashion-clothes-accessories-seamless-pattern_1284-3636.jpg?w=360" width="500px" height="500px">
+					</div>
+
+				</div>
+			</main>
+		</div>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+		crossorigin="anonymous"></script>
+	<script
+		src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+		crossorigin="anonymous"></script>
+	<script src="js/scripts.js"></script>
+	<script
+		src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js"
+		crossorigin="anonymous"></script>
+	<script src="js/chart-area-demo.js"></script>
+	<script src="js/chart-bar-demo.js"></script>
+	<script
+		src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"
+		crossorigin="anonymous"></script>
+	<script
+		src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js"
+		crossorigin="anonymous"></script>
+	<script src="js/datatables-demo.js"></script>
+</body>
+</html>
